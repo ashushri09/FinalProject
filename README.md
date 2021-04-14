@@ -1,0 +1,2 @@
+# FinalProject
+Service at door step, For the growing digitization we want to connect all the daily wage workers to a platform where workers can be connected to ones in need based on choice or best reviews recommendation. Be it Pest or hygiene workers, electricians, or any kind of technicians available for an area. The customer can add personalized reviews to their service while server can see a dashboard where they can analyze the reviews, more in form of charts and various models.
