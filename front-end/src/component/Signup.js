@@ -1,5 +1,6 @@
 import React , { useState } from 'react'
 import { NavLink ,useHistory} from 'react-router-dom'
+import "./signup.css";
 
 
 

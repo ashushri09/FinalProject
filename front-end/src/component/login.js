@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { NavLink,useHistory } from 'react-router-dom'
+import "./signup.css";
 
 function Login() {
     const [userName,setuserName] = useState("");
@@ -41,13 +42,15 @@ function Login() {
 
     return (
         <>
+        
        <div className="login-form">
+       
     <form action="/examples/actions/confirmation.php" method="post">
         <h2 className="text-center">Log in</h2>   
         <div style={{ color: 'red'}} className='text-center mb-2'>
             {error}
         </div>
-        <div className="form-group">
+        <div className="form-group" >
         	<div className="input-group">
                 <div className="input-group-prepend">
                     <span className="input-group-text">
@@ -89,6 +92,7 @@ function Login() {
     </form>
     <p className="text-center text-muted small">Don't have an account? <NavLink to="/signup">Sign up here!</NavLink></p>
 </div>
+
         </>
     )
 }
