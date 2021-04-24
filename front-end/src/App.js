@@ -50,6 +50,9 @@ import './App.css'
 import Login from "./component/login";
 import Navbar from "./component/Navbar";          
 import Signup from './component/Signup'
+import Home from "./component/Home";
+import Contact from "./component/Contact";
+
 
 
 function App() {
@@ -58,6 +61,11 @@ function App() {
    {/* <Navbar/> */}
 <Router>
 <Navbar/>
+
+<Route exact path="/">
+   <Home/>
+   </Route>
+
    <Route path="/login">
    <Login/>
    </Route>
@@ -65,7 +73,14 @@ function App() {
    <Route path="/signup">
    <Signup/>
    </Route>
-   </Router>
+
+   <Route path="/contact">
+   <Contact/>
+   </Route>
+
+   
+
+</Router>
   
    </>
   )
