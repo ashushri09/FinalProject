@@ -1,11 +1,8 @@
-import React , { useState } from 'react'
-import { NavLink ,useHistory} from 'react-router-dom'
-import "./contact.css"
+import React from 'react'
+// import { NavLink ,useHistory} from 'react-router-dom'
+import "../css/contact.css"
 function Contact() {
-    // const [ FullName, setname ] = useState('')
-    // const [ Email, setemail ] = useState('')
-    // const [ TypeyourMessage, setmess ] = useState('')
-    // const history = useHistory();
+
 
     return(
         <>
@@ -64,7 +61,6 @@ function Contact() {
            </div>  
         </div>
 
-       {/* </div> */}
    </section>
 
 

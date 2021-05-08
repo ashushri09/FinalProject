@@ -1,12 +1,15 @@
 import React, { useState } from 'react'
 import { NavLink,useHistory } from 'react-router-dom'
-import "./signup.css";
+import { useDispatch, useSelector } from 'react-redux'
+import { saveToken } from './../redux/home'
+import "../css/signup.css";
 
 function Login() {
     const [userName,setuserName] = useState("");
     const [password,setPassword] = useState("");
     const [error,setError] = useState("");
     const history = useHistory()
+    const dispatch = useDispatch()
 
     const onLogin = (e)=>{
         e.preventDefault()
@@ -14,7 +17,7 @@ function Login() {
         const requestOptions = {
             method: 'POST',
             mode: 'cors',
-            headers: { 
+            headers: {
               'Content-Type': 'application/json',
               'Accept': 'application/json'
              },
@@ -28,14 +31,23 @@ function Login() {
                     // throw new Error(body.error)
                     console.log('red',body);
                     setError(body.msg)
+
+                    
                   })
             }
+
             history.push("/")
 
             return response.json()
 
           })
-          .then(data => console.log(data));
+          .then(data => {
+            sessionStorage.setItem('token', JSON.stringify({
+                token: data.token
+            }))  
+            const token = data.token
+            dispatch(saveToken(token))
+            console.log(data)});
 
         
     }

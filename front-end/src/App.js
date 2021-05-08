@@ -46,19 +46,24 @@
 
 import React from 'react';
 import {Route, BrowserRouter as Router} from 'react-router-dom';
+import { Provider } from 'react-redux'
+import store from './store'
 import './App.css'
 import Login from "./component/login";
 import Navbar from "./component/Navbar";          
 import Signup from './component/Signup'
 import Home from "./component/Home";
 import Contact from "./component/Contact";
-
+import AddSkill from './component/addSkill'
+import UserInfo from './component/user-Info';
+import GiveReview from "./component/giveReview";
 
 
 function App() {
   return (
    <>
    {/* <Navbar/> */}
+<Provider store={ store }>
 <Router>
 <Navbar/>
 
@@ -78,10 +83,26 @@ function App() {
    <Contact/>
    </Route>
 
-   
+   <Route path="/add-skill">
+   <AddSkill />
+   </Route>
+
+   {/* <Route path="/UserInfo">
+   <UserInfo />
+   </Route> */}
+
+   <Route
+  path='/UserInfo'
+  render={(props) => (
+    <UserInfo {...props} />
+  )}
+/>
+  <Route path="/giveReview">
+   <GiveReview />
+   </Route>
 
 </Router>
-  
+</Provider>
    </>
   )
 }

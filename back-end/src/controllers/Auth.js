@@ -52,34 +52,34 @@ exports.signup = (req,res) =>{
 }
 
 exports.skills = (req,res) =>{
-// console.log(req);
-// User.findOne({_id: req.payload.id},(err,foundUser)=>{
-//     if(foundUser){
-    
-        User.updateOne({_id: req.payload.id},{ $set: { skills: req.body.skill }}, (res, err)=>{
-            console.log(res);
+   
+        User.updateOne({_id: req.payload.id},{ $set: { skills: req.body.skill }}, (err)=>{
+            if (!err){
+                res.send("data is updated successfuly")
+            }else{
+                res.send(err)
+            }
         })
-//     }
-// })
+
 }
 
 exports.skilledMan = (req,res) =>{
-    // console.log(req);
-    // User.findOne({_id: req.payload.id},(err,foundUser)=>{
-    //     if(foundUser){
         console.log(req.params);
             User.find({skills:req.params.skills},(err,founduser)=>{
-                console.log(founduser);
+                if (!err){
+                    res.send(founduser)
+                }else{
+                    res.send(err)
+                }
             })
-    //     }
-    // })
+
     }
 
     exports.Review = (req,res) =>{
-        const { userId, reviewMsg } = req.body
-        const { id: reviewerId } = req.payload
+        const { userId, reviewMsg ,name} = req.body
+        
         const newReview = new Review({
-            userId,reviewMsg,reviewerId
+            userId,reviewMsg,name
          });
          newReview.save(err=>{
              if(err){
@@ -90,3 +90,15 @@ exports.skilledMan = (req,res) =>{
              }
          });
         }
+    
+        exports.reviewMan = (req,res) =>{
+            console.log(req.params);
+            Review.find({userId:req.params.userID},(err,founduser)=>{
+                    if (!err){
+                        res.send(founduser)
+                    }else{
+                        res.send(err)
+                    }
+                })
+    
+        }       
