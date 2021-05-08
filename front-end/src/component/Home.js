@@ -53,7 +53,7 @@ console.log(skilledData);
                 <div className="search-box">
                     <input className="search-txt" type="text" 
                     onChange={(e)=> setSearch(e.target.value)} name="" placeholder="Type to search" />
-                    <a className="search-btn" onClick = {getData} href="/"><div class="icon"><i className="fa fa-search" aria-hidden="true"></i></div></a>
+                    <a className="search-btn" onClick = {getData} href="/"><div className="icon"><i className="fa fa-search" aria-hidden="true"></i></div></a>
                 </div>
                 <React.Fragment>
                 {!skilledData ?(
