@@ -5,6 +5,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 const Authentication = require("./src/Routes/Authentication");
 const app = express();
+const {MONGO_URI , JWT_SECRET1} = require("./tokens")
 
 
 app.use(cors());
@@ -13,7 +14,7 @@ app.use(bodyParser.json());
 const port = process.env.PORT || 4444;
 
 
-const uri = process.env.ATLAS_URI;
+const uri = process.env.ATLAS_URI || MONGO_URI;
 mongoose.connect(uri,{ useNewUrlParser: true, useCreateIndex: true,useUnifiedTopology: true })
 .then(()=>{
     console.log("Database is connected");
@@ -36,3 +37,5 @@ app.get("/",(req,res)=>{
 app.listen(4444,()=>{
     console.log(`Server is running on port :${port}`);
 })
+
+module.exports = app;
