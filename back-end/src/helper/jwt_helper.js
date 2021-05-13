@@ -1,7 +1,7 @@
 require('dotenv').config()
 const JWT = require('jsonwebtoken')
 const createError = require('http-errors')
-const {MONGO_URI , JWT_SECRET1} = require("./tokens")
+const {MONGO_URI , JWT_SECRET1} = require("../../tokens")
 
 const JWT_SECRET = process.env.JWT_TOKEN_SECRET || JWT_SECRET1;
 

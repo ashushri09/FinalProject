@@ -5,7 +5,7 @@ const request = require('supertest');
 const mongoose = require("mongoose");
 
 const app = require('../../../server');
-const {MONGO_URI , JWT_SECRET1} = require("./tokens")
+const {MONGO_URI , JWT_SECRET1} = require("../../../tokens.js")
 
 
 describe('POST /notes', () => {

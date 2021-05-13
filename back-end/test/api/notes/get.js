@@ -3,7 +3,7 @@ process.env.NODE_ENV = 'test';
 const expect = require('chai').expect;
 const request = require('supertest');
 const mongoose = require("mongoose");
-const {MONGO_URI , JWT_SECRET1} = require("./tokens")
+const {MONGO_URI , JWT_SECRET1} = require("../../../tokens.js")
 
 const app = require('../../../server');
 
