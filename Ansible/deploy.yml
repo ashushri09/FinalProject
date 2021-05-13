@@ -1,0 +1,9 @@
+---
+- name: Pull docker image
+  hosts: all
+  tasks:
+    - name: Pull docker image from docker hub
+      docker_image:
+        name: preeti82/helping-hand-backend
+        name: preeti82/helping-hand-frontend
+        source: pull
