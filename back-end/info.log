@@ -1,0 +1,8 @@
+info: Server is running on port :4444 {"timestamp":"2021-05-14T12:12:18.371Z"}
+info: Server is running on port :4444 {"timestamp":"2021-05-14T12:13:21.806Z"}
+info: user registered successfully {"timestamp":"2021-05-14T12:14:53.983Z"}
+info: invalid username / password {"timestamp":"2021-05-14T12:15:09.445Z"}
+info: login successful {"timestamp":"2021-05-14T12:16:11.123Z"}
+info: user found {"timestamp":"2021-05-14T12:16:28.519Z"}
+info: review found {"timestamp":"2021-05-14T12:16:48.387Z"}
+info: review saved succesfully {"timestamp":"2021-05-14T12:17:04.896Z"}

@@ -6,6 +6,7 @@ const cors = require("cors");
 const Authentication = require("./src/Routes/Authentication");
 const app = express();
 const {MONGO_URI , JWT_SECRET1} = require("./tokens")
+const logger = require("./Config/logger")
 
 
 app.use(cors());
@@ -36,6 +37,7 @@ app.get("/",(req,res)=>{
 
 app.listen(4444,()=>{
     console.log(`Server is running on port :${port}`);
+    logger.log("info",`Server is running on port :${port}`);
 })
 
 module.exports = app;
