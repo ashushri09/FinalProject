@@ -60,16 +60,16 @@ console.log(skilledData);
                     <React.Fragment>
                 <div className="welcome-text">
                     <h1>
-                        We are here<span>To Help You</span></h1>
+                        We are here<span> To Help You</span></h1>
                     <a href="/Contact">Contact Us</a>
                 </div>
 
                 </React.Fragment>
                 ):(
-                    <div>
+                    <div className="userContainer">
                 {!userData && skilledData?.map((user)=>(
-                     <div>
-                         <div onClick={() => getUser(user)}  className="text-white">{user?.userName}
+                     <div className="userDiv">
+                         <div onClick={() => getUser(user)}>{user?.userName}
                          </div>
                     </div>
                 ))}

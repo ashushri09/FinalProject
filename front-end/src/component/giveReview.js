@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from 'react-redux'
 import { useHistory, Link } from 'react-router-dom'
+import '../css/skill.css'
 
 function GiveUserReview(){
     const [msg,setMsg] = useState("")
@@ -28,7 +29,7 @@ function GiveUserReview(){
           .then(response => {
             response.json()
           console.log('res',response);
-          history.push("/")
+          history.push("/UserInfo")
           })
           .then(data => console.log(data));
 
@@ -37,11 +38,44 @@ function GiveUserReview(){
 
 
     return(
-        <>
+      <>
+        {/* <div >
         <input onChange={(e) => setMsg(e.target.value)}></input>
         <input onChange={(e) => setName(e.target.value)}></input>
-        <button onClick={setReview}> Add </button>
-        </>
+        <button onClick={setReview} className="btn btn-primary btn-sm"> Add </button>
+        </div> */}
+
+<div className="skillForm">
+<form>
+
+  <h1>Add Skill</h1>
+
+
+  {/* <legend><span className="number">1</span>Your info</legend>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="user_name" />
+
+  <label for="mail">Email:</label>
+  <input type="email" id="mail" name="user_email" />
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="user_password" />
+
+  <label>Age:</label>
+  <input type="radio" id="under_13" value="under_13" name="user_age" /><label for="under_13" className="light">Under 18</label><br />
+  <input type="radio" id="over_13" value="over_13" name="user_age" /><label for="over_13" className="light">18 or older</label>
+ */}
+
+<label for="name">Name:</label>
+  <input type="text" id="name" name="user_name" onChange={(e) => setName(e.target.value)}></input>
+
+        <label for="msg">Message:</label>
+        <input type="text" id="msg" name="msg" onChange={(e) => setMsg(e.target.value)}></input>
+        <button onClick={setReview} className="btn btn-primary btn-sm"> Add </button>
+      
+</form>
+</div>
+</>
     )
 }
 
