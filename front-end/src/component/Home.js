@@ -60,7 +60,7 @@ console.log(skilledData);
                     <React.Fragment>
                 <div className="welcome-text">
                     <h1>
-                        We are <span>Creative</span></h1>
+                        We are here<span>To Help You</span></h1>
                     <a href="/Contact">Contact Us</a>
                 </div>
 
