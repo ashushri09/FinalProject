@@ -46,9 +46,7 @@ console.log(skilledData);
         <>
             <header>
                 <div className="wrapper">
-                    <div className="logo">
-                        <img src="https://i.postimg.cc/mg4rWBmv/logo.png" alt="" />
-                    </div>
+                  
                 </div>
                 <div className="search-box">
                     <input className="search-txt" type="text" 

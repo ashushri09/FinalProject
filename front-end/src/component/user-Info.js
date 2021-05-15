@@ -52,13 +52,13 @@ console.log('user', skilledUser);
         <div className="userInfoBox">
 
             <div className="userTable">
-            <div className=''>name = {skilledUser.userName}</div>
-            <div className=''>email = {skilledUser.email}</div>
-            <div className=''>mobile = {skilledUser.mobile}</div>
+            <div className='userDiv'>Name = {skilledUser.userName}</div>
+            <div className='userDiv'>Email = {skilledUser.email}</div>
+            <div className='userDiv'>Mobile = {skilledUser.mobile}</div>
             
             {!review?.length ? (<button className="showReviewBtn" onClick={(e) => getReview(e)} type='button'>show review</button>) : (
                 review && review.map((rew, inx) => (
-                    <div>{`${inx + 1}. `}{ rew?.reviewMsg}</div>
+                    <div className="text-white">{`${inx + 1}. `}{ rew?.reviewMsg}</div>
                 ))
             )}
             </div>

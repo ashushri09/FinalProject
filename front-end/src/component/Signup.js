@@ -43,8 +43,8 @@ function Signup() {
 
 
     return (
-        <>
-            <div className="signup-form">
+        <div >
+            <div className="login-form">
                 <form action="/examples/actions/confirmation.php" method="post" />
                 <h2>Sign Up</h2>
                 <p>Please fill in this form to create an account!</p>
@@ -122,7 +122,7 @@ function Signup() {
 
             </div>
 
-        </>
+        </div>
     )
 }
 

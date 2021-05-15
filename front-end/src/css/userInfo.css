@@ -1,9 +1,9 @@
 .userInfoBox{
     max-width: 300px;
     margin: 10px auto;
-    position: relative;
+    position:relative;
     top: 60px;
-    background: pink;
+    background: #1b1b1b;
 }
 
  
@@ -46,7 +46,7 @@ button {
     }
 
     .userInfoBg{
-        height: 655px;
+        height: 800px;
         width: 100%;
-        background: red;
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://i.pinimg.com/originals/79/d1/c0/79d1c010a65fcfe3b06081b14b8c24b1.jpg);
     }

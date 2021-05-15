@@ -38,7 +38,7 @@ function GiveUserReview(){
 
 
     return(
-      <>
+      <div className="userInfoBg">
         {/* <div >
         <input onChange={(e) => setMsg(e.target.value)}></input>
         <input onChange={(e) => setName(e.target.value)}></input>
@@ -47,8 +47,8 @@ function GiveUserReview(){
 
 <div className="skillForm">
 <form>
-
-  <h1>Add Skill</h1>
+   
+  <h1>Give Review</h1>
 
 
   {/* <legend><span className="number">1</span>Your info</legend>
@@ -69,13 +69,13 @@ function GiveUserReview(){
 <label for="name">Name:</label>
   <input type="text" id="name" name="user_name" onChange={(e) => setName(e.target.value)}></input>
 
-        <label for="msg">Message:</label>
+        <label for="msg">Review:</label>
         <input type="text" id="msg" name="msg" onChange={(e) => setMsg(e.target.value)}></input>
         <button onClick={setReview} className="btn btn-primary btn-sm"> Add </button>
       
 </form>
 </div>
-</>
+</div>
     )
 }
 

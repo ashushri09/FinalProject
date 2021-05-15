@@ -34,7 +34,7 @@ function AddSkill() {
   }
 
   return (
-        <>
+        <div className="userInfoBg">
 
       <div className="skillForm">
         <form>
@@ -64,7 +64,7 @@ function AddSkill() {
         </form>
       </div>
         
-    </>
+    </div>
     )
 }
 

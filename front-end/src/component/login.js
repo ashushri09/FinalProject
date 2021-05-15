@@ -53,7 +53,7 @@ function Login() {
     }
 
     return (
-        <>
+        <div className="userInfoBg">
         
        <div className="login-form">
        
@@ -105,7 +105,7 @@ function Login() {
     <p className="text-center text-muted small">Don't have an account? <NavLink to="/signup">Sign up here!</NavLink></p>
 </div>
 
-        </>
+        </div>
     )
 }
 
