@@ -67,3 +67,103 @@ info: user found {"timestamp":"2021-05-15T15:19:38.563Z"}
 info: user found {"timestamp":"2021-05-15T15:19:41.172Z"}
 info: user found {"timestamp":"2021-05-15T15:19:49.454Z"}
 info: review found {"timestamp":"2021-05-15T15:19:53.864Z"}
+info: Server is running on port :4444 {"timestamp":"2021-05-15T15:45:01.883Z"}
+info: login successful {"timestamp":"2021-05-15T15:45:35.608Z"}
+info: user found {"timestamp":"2021-05-15T15:47:06.621Z"}
+info: review found {"timestamp":"2021-05-15T15:47:10.667Z"}
+info: user found {"timestamp":"2021-05-15T18:05:45.600Z"}
+info: user found {"timestamp":"2021-05-15T18:05:46.867Z"}
+info: user found {"timestamp":"2021-05-15T18:05:55.575Z"}
+info: review found {"timestamp":"2021-05-15T18:06:02.265Z"}
+info: review saved succesfully {"timestamp":"2021-05-15T18:06:25.481Z"}
+info: review found {"timestamp":"2021-05-15T18:06:27.883Z"}
+info: parth - login successful {"timestamp":"2021-05-15T18:09:43.854Z"}
+info: user found {"timestamp":"2021-05-15T18:09:55.806Z"}
+info: review found {"timestamp":"2021-05-15T18:10:00.176Z"}
+error: undefined {"errors":{"name":{"name":"ValidatorError","message":"Path `name` is required.","properties":{"message":"Path `name` is required.","type":"required","path":"name","value":""},"kind":"required","path":"name","value":""}},"_message":"Review validation failed","timestamp":"2021-05-15T18:10:06.891Z"}
+info: review found {"timestamp":"2021-05-15T18:10:08.625Z"}
+info: invalid username / password {"timestamp":"2021-05-15T18:19:14.617Z"}
+info: shubham aggarwal - login successful {"timestamp":"2021-05-15T18:20:42.982Z"}
+info: user found {"timestamp":"2021-05-15T18:20:55.276Z"}
+info: user found {"timestamp":"2021-05-15T18:20:56.809Z"}
+info: user found {"timestamp":"2021-05-15T18:21:06.689Z"}
+info: user found {"timestamp":"2021-05-15T18:21:08.317Z"}
+info: user found {"timestamp":"2021-05-15T18:21:09.361Z"}
+info: user found {"timestamp":"2021-05-15T18:21:09.501Z"}
+info: user found {"timestamp":"2021-05-15T18:21:09.654Z"}
+info: user found {"timestamp":"2021-05-15T18:21:09.815Z"}
+info: user found {"timestamp":"2021-05-15T18:21:09.966Z"}
+info: user found {"timestamp":"2021-05-15T18:21:10.107Z"}
+info: user found {"timestamp":"2021-05-15T18:21:10.350Z"}
+info: user found {"timestamp":"2021-05-15T18:21:10.750Z"}
+info: user found {"timestamp":"2021-05-15T18:21:11.317Z"}
+info: user found {"timestamp":"2021-05-15T18:21:11.409Z"}
+info: skills updated successfully {"timestamp":"2021-05-15T18:22:05.312Z"}
+info: invalid username / password {"timestamp":"2021-05-15T18:22:33.165Z"}
+info: user found {"timestamp":"2021-05-15T18:22:51.651Z"}
+info: review found {"timestamp":"2021-05-15T18:22:57.551Z"}
+info: review saved succesfully {"timestamp":"2021-05-15T18:23:24.571Z"}
+info: review found {"timestamp":"2021-05-15T18:23:26.697Z"}
+info: user found {"timestamp":"2021-05-15T18:23:50.233Z"}
+info: user found {"timestamp":"2021-05-15T18:23:51.571Z"}
+info: user found {"timestamp":"2021-05-15T18:23:57.793Z"}
+info: review found {"timestamp":"2021-05-15T18:24:02.764Z"}
+info: skills updated successfully {"timestamp":"2021-05-15T18:24:37.715Z"}
+info: user found {"timestamp":"2021-05-15T18:24:44.872Z"}
+info: review found {"timestamp":"2021-05-15T18:24:47.716Z"}
+info: skills updated successfully {"timestamp":"2021-05-15T18:25:40.921Z"}
+info: user found {"timestamp":"2021-05-15T18:25:51.982Z"}
+info: review found {"timestamp":"2021-05-15T18:25:56.534Z"}
+info: invalid username / password {"timestamp":"2021-05-15T18:26:43.226Z"}
+info: user found {"timestamp":"2021-05-15T18:27:03.807Z"}
+info: user found {"timestamp":"2021-05-15T18:27:05.343Z"}
+info: user found {"timestamp":"2021-05-15T18:27:05.856Z"}
+info: user found {"timestamp":"2021-05-15T18:27:06.197Z"}
+info: user found {"timestamp":"2021-05-15T18:27:06.227Z"}
+info: user found {"timestamp":"2021-05-15T18:27:06.265Z"}
+info: user registered successfully {"timestamp":"2021-05-15T18:30:56.777Z"}
+info: Ashu - login successful {"timestamp":"2021-05-15T18:31:10.802Z"}
+info: skills updated successfully {"timestamp":"2021-05-15T18:32:38.659Z"}
+info: user found {"timestamp":"2021-05-15T18:32:48.203Z"}
+info: Ashu - login successful {"timestamp":"2021-05-15T18:36:39.233Z"}
+info: skills updated successfully {"timestamp":"2021-05-15T18:36:57.163Z"}
+info: user found {"timestamp":"2021-05-15T18:37:03.220Z"}
+info: skills updated successfully {"timestamp":"2021-05-15T18:37:40.166Z"}
+info: user found {"timestamp":"2021-05-15T18:37:46.833Z"}
+info: user found {"timestamp":"2021-05-15T18:38:04.598Z"}
+info: shubham aggarwal - login successful {"timestamp":"2021-05-15T18:38:49.218Z"}
+info: skills updated successfully {"timestamp":"2021-05-15T18:39:00.316Z"}
+info: user found {"timestamp":"2021-05-15T18:39:08.690Z"}
+info: review found {"timestamp":"2021-05-15T18:39:13.753Z"}
+info: invalid username / password {"timestamp":"2021-05-15T18:39:31.236Z"}
+info: invalid username / password {"timestamp":"2021-05-15T18:39:52.556Z"}
+info: user found {"timestamp":"2021-05-15T18:40:12.843Z"}
+info: user found {"timestamp":"2021-05-15T18:40:23.510Z"}
+info: review found {"timestamp":"2021-05-15T18:40:49.457Z"}
+info: invalid username / password {"timestamp":"2021-05-15T18:41:13.085Z"}
+info: invalid username / password {"timestamp":"2021-05-15T18:42:00.024Z"}
+info: user registered successfully {"timestamp":"2021-05-15T18:43:01.048Z"}
+info: preeti - login successful {"timestamp":"2021-05-15T18:43:26.485Z"}
+info: skills updated successfully {"timestamp":"2021-05-15T18:43:51.058Z"}
+info: user found {"timestamp":"2021-05-15T18:43:58.353Z"}
+info: review found {"timestamp":"2021-05-15T18:44:02.301Z"}
+info: review saved succesfully {"timestamp":"2021-05-15T18:44:13.504Z"}
+info: review found {"timestamp":"2021-05-15T18:44:15.083Z"}
+info: user found {"timestamp":"2021-05-15T18:44:54.036Z"}
+error: undefined {"errors":{"name":{"name":"ValidatorError","message":"Path `name` is required.","properties":{"message":"Path `name` is required.","type":"required","path":"name","value":""},"kind":"required","path":"name","value":""}},"_message":"Review validation failed","timestamp":"2021-05-15T18:45:13.776Z"}
+info: review found {"timestamp":"2021-05-15T18:45:16.805Z"}
+info: review found {"timestamp":"2021-05-15T18:45:17.594Z"}
+info: review found {"timestamp":"2021-05-15T18:45:20.781Z"}
+info: review found {"timestamp":"2021-05-15T18:45:21.527Z"}
+info: review found {"timestamp":"2021-05-15T18:45:24.571Z"}
+info: review found {"timestamp":"2021-05-15T18:45:26.434Z"}
+info: review found {"timestamp":"2021-05-15T18:45:28.335Z"}
+info: review found {"timestamp":"2021-05-15T18:45:30.421Z"}
+info: user found {"timestamp":"2021-05-15T18:45:45.494Z"}
+info: review found {"timestamp":"2021-05-15T18:45:49.214Z"}
+info: review found {"timestamp":"2021-05-15T18:45:50.328Z"}
+info: skills updated successfully {"timestamp":"2021-05-15T18:47:03.715Z"}
+info: Server is running on port :4444 {"timestamp":"2021-05-15T19:01:18.509Z"}
+info: carpainter - user found {"timestamp":"2021-05-15T19:01:19.003Z"}
+info: parth - login successful {"timestamp":"2021-05-15T19:01:19.169Z"}
+info: parth - invalid username / password {"timestamp":"2021-05-15T19:01:19.301Z"}
